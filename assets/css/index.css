@@ -1,2 +1,6 @@
 @import "./defult.css";
 @import "./variable.css";
+
+.container {
+    margin: 0 11rem;
+}
