@@ -102,54 +102,104 @@ body {
     color: var(--text-grey);
     letter-spacing: 0.5rem;
 }
+
 .top-card__bottom {
     margin-top: 2rem;
     color: var(--Lime-Green);
 }
+
 .top-card__bottom-text-red {
     color: var(--Bright-Red);
 }
+
 .main-header__title {
     color: var(--white);
     font-weight: 700;
     font-size: 3rem;
     margin-top: 5rem;
 }
+
 .main-cards {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 30px;
 }
+
 .main-cards__card {
     background-color: var(--card-bg);
-    color: var(--white);    
+    color: var(--white);
     border-radius: 9px;
     padding: 2.3rem;
 }
+
 .main-cards__card-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .main-cards__card-header__text {
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--text-grey);
 }
+
 .main-cards__card-body {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 2.6rem;
 }
+
 .main-cards__card-body__title {
     font-size: 3.3rem;
     font-weight: 900;
 }
+
 .main-cards__card-body__text {
     color: var(--Lime-Green);
     font-weight: 700;
     font-size: 1.6rem;
 }
+
+
+/* start light mode */
+.light {
+    background-color: var(--bg-light);
+}
+.light * {
+    color: var(--text-light);
+}
+.light .header-right__wrapper-switch-circle {
+    left: 30px;
+    background-color: var(--bg-light);
+} 
+.light .top-card {
+    background-color: var(--card-bg-light);
+}
+.light .top-card__middel-text {
+    color: var(--text-grey-light);
+    font-weight: 500;
+}
+.light .top-card__bottom-text {
+    color: var(--Lime-Green);
+}
+.light .main-header__title {
+    color: var(--text-grey-light);
+} 
+.light .main-cards__card {
+    background-color: var(--card-bg-light);
+}
+.light .main-cards__card-header__text {
+    color: var(--text-grey-light);
+    font-weight: 700;
+}
+.main-cards__card-body__text {
+    color: var(--Lime-Green);
+}
+/* end light mode */
+
+
+
 /* end main style */
