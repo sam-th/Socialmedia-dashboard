@@ -168,36 +168,56 @@ body {
 .light {
     background-color: var(--bg-light);
 }
+
 .light * {
     color: var(--text-light);
 }
+
 .light .header-right__wrapper-switch-circle {
     left: 30px;
     background-color: var(--bg-light);
-} 
+}
+
 .light .top-card {
     background-color: var(--card-bg-light);
+    transition: 400ms;
 }
+
+.light .top-card:hover {
+    background-color: var(--text-grey-light-active);
+}
+
 .light .top-card__middel-text {
     color: var(--text-grey-light);
     font-weight: 500;
 }
+
 .light .top-card__bottom-text {
     color: var(--Lime-Green);
 }
+
 .light .main-header__title {
     color: var(--text-grey-light);
-} 
+}
+
 .light .main-cards__card {
     background-color: var(--card-bg-light);
+    transition: 400ms;
 }
+
+.light .main-cards__card:hover {
+    background-color: var(--text-grey-light-active);
+}
+
 .light .main-cards__card-header__text {
     color: var(--text-grey-light);
     font-weight: 700;
 }
+
 .main-cards__card-body__text {
     color: var(--Lime-Green);
 }
+
 /* end light mode */
 
 

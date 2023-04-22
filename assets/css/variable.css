@@ -11,6 +11,7 @@
     --card-bg-light: hsl(227, 47%, 96%);
     --text-grey: hsl(228, 34%, 66%);
     --text-grey-light: hsl(228, 12%, 44%);
+    --text-grey-light-active: hsl(0, 3%, 86%);
     --white: hsl(0, 0%, 100%);
     --text-light: hsl(230, 17%, 14%);
 }
